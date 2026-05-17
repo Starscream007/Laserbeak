@@ -269,7 +269,7 @@ def deliver(args):
         "--port",    str(args.smtp_port),
         "--h-Subject", subject,
         "--body",    body,
-        "--attach",  args.attach,
+        "--attach",  f"@{args.attach}",
     ]
 
     inf(f"Launching Laserbeak → {args.to} via {args.server}:{args.smtp_port}")

@@ -76,7 +76,14 @@ MANIFEST_XML = '''<?xml version="1.0" encoding="UTF-8"?>
 CONTENT_XML = '''<?xml version="1.0" encoding="UTF-8"?>
 <office:document-content xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
  xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
+ xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0"
+ xmlns:dom="http://www.w3.org/2001/xml-events"
  office:version="1.2">
+<office:scripts>
+ <office:event-listeners>
+  <script:event-listener script:language="StarBasic" script:event-name="dom:load" script:macro-name="Standard.Module1.AutoOpen" dom:event-type="dom:load"/>
+ </office:event-listeners>
+</office:scripts>
 <office:body><office:text><text:p>{body}</text:p></office:text></office:body>
 </office:document-content>'''
 

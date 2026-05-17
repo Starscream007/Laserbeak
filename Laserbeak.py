@@ -267,7 +267,7 @@ def deliver(args):
         "--from",    args.from_addr,
         "--server",  args.server,
         "--port",    str(args.smtp_port),
-        "--subject", subject,
+        "--h-Subject", subject,
         "--body",    body,
         "--attach",  args.attach,
     ]

@@ -500,7 +500,7 @@ def main():
         forge(args)
         v("")
         v("   Laserbeak is airborne. The document is ready.")
-        v("   Till all are one.")
+        v("   Peace through Tyranny.")
         v("")
     elif args.command == "deliver":
         deliver(args)

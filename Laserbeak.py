@@ -40,7 +40,7 @@ def banner():
     v(r" | |   / _` / __|/ _ \ '__| '_ \ / _ \/ _` |/ __| |/ /")
     v(r" | |__| (_| \__ \  __/ |  | |_) |  __/ (_| | (__|   < ")
     v(r" |_____\__,_|___/\___|_|  |_.__/ \___|\__,_|\___|_|\_\\")
-    v("          by Starscream — Till all are one            ")
+    v("          by Starscream — Peace through Tyranny         ")
     v("")
     v("        [ Decepticon Infiltration System ]              ")
     v("        [ ODT Macro Injector — Phishing Forge ]         ")

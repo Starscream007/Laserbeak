@@ -208,6 +208,6 @@ cv.odt (ZIP)
 ## Author
 
 **Starscream007**  
-Junior Pentester | HTB Platinum | CPTS · PNPT · PJPT · PWPA  
+Junior Pentester/Redteamer | CRTE . CPTS · PNPT · PJPT · PWPA  
 
-> *Till all are one.*
+> *Peace through Tyranny.*
